@@ -20,8 +20,6 @@ PAYLOAD = {
 HEADERS = {'Content-Type': 'application/json'}
 
 
-# сделать проверку на статус код 400
-
 class CreateObject(BaseEndpoints):
 
     @allure.step('Send POST request')

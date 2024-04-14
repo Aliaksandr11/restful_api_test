@@ -11,7 +11,6 @@ class DeleteObject(BaseEndpoints):
         self.response = requests.delete(f'https://api.restful-api.dev/objects/{obj_id}')
         self.response_json = self.response.json()
         self.status_code = self.response.status_code
-        # self.schema_delete = CheckSchemasDelete(**self.response_json)
 
     @allure.step('Check the response message')
     def check_message(self, obj_id):
