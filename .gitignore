@@ -6,3 +6,4 @@ secrets.py
 .env
 allure-results
 allure-report
+*.log

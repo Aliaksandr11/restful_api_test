@@ -6,6 +6,8 @@ class BaseEndpoints:
     response = None
     response_json = None
     object_id = None
+    schema_post = None
+    schema_delete = None
 
     @allure.step('Check status code is 200')
     def check_status_code_is_200(self):
